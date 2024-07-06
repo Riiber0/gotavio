@@ -1,0 +1,17 @@
+{{define "base"}}
+
+<!doctype html>
+<html lang='en'>
+    <head>
+        <meta charset='utf-8'>
+        <title> {{template "Title" .}} </title>
+    </head>
+    <body>
+        <header>
+            <h1> snipetBox </h1>
+        </header>
+        <main>
+            {{tamplate "main" .}}
+        </main>
+    </body>
+{{end}}
